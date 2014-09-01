@@ -6,6 +6,7 @@ class SectionsController < ApplicationController
   # GET /sections.json
   def index
     @sections = Section.all
+    binding.pry
   end
 
   # GET /sections/1
